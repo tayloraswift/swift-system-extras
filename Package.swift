@@ -3,6 +3,10 @@ import PackageDescription
 
 let package:Package = .init(
     name: "swift-system-extras",
+    platforms: 
+    [
+        .macOS(.v11)
+    ],
     products: 
     [
          .library(name: "SystemExtras",  targets: ["SystemExtras"]),
