@@ -35,7 +35,7 @@ jobs:
                 run:   "curl https://download.swift.org/development/xcode/\
                         swift-${{ matrix.swift }}/\
                         swift-${{ matrix.swift }}-osx.pkg \
-                        --output swift-${{ matrix.swift }}.pkg
+                        --output swift-${{ matrix.swift }}.pkg"
             
             -   name: set up swift
                 run: |
